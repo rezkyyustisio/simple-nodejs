@@ -1,0 +1,14 @@
+<h1>Multer Upload Example</h1>
+
+<form action="user/upload/single" method="post" enctype="multipart/form-data">
+    <label for="">File Upload Single</label><br>
+    <input type="file" name="avatar" />
+    <input type="submit" value="Upload">
+  </form>
+
+
+  <form action="user/upload/multiple" method="post" enctype="multipart/form-data">
+    <label for="">File Upload Multiple</label><br>
+    <input type="file" multiple name="avatar" />
+    <input type="submit" value="Upload">
+  </form>
